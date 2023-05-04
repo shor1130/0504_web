@@ -1,0 +1,86 @@
+@charset "UTF-8";
+body div {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+.box1 {
+    background-color: #B07071;
+    border-radius: 6px;
+    height: 95px;
+    width: 95px;
+    text-align: center;
+    color: white;
+    font-size: 11px;
+    transition: 1s ease-in-out;
+}
+.box5 {
+    background-color: #C38A44;
+    border-radius: 6px;
+    height: 95px;
+    width: 95px;
+    text-align: center;
+    color: white;
+    font-size: 11px;
+    transition: 1s ease-in-out;
+}
+.box2 {
+    background-color: #719970;
+    border-radius: 6px;
+    height: 95px;
+    width: 95px;
+    text-align: center;
+    color: white;
+    font-size: 11px;
+    transition: 1s ease-in-out;
+}
+.box3 {
+    background-color: #9091AD;
+    border-radius: 6px;
+    height: 95px;
+    width: 95px;
+    text-align: center;
+    color: white;
+    font-size: 11px;
+    transition: 1s ease-in-out;
+}
+.box4{
+    ackground-color: #B07071;
+    border-radius: 6px;
+    height: 95px;
+    width: 95px;
+    text-align: center;
+    color: white;
+    font-size: 11px;
+    transition: 1s ease-in-out;
+    background-color: #D2C677;
+}
+.box1:hover {
+    transform: scale(1.5);
+    font-style: normal;
+    font-weight: normal;
+    font-size: large;
+}
+.box2:hover {
+  transform: rotate(180deg);
+
+}
+.box3:hover {
+    transform: translate(25px, 25px);
+    background-color: #9B72BB;
+    border-radius: 37px;
+}
+
+
+.box4:hover{
+    background-color: #2E407F;
+	 transform: rotate(-180deg);
+}
+.box5:hover{
+    transform: scale(0.5);
+    text-shadow: 0 0;
+}
